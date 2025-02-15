@@ -1,184 +1,344 @@
 <?php if(!empty($banner)) { ?>
-<!-- <div class="center slider">
-    <?php foreach($banner as $data) { ?>
-    <div>
-        <a href="<?php echo $data['banner_link'] ?>" title="<?php echo $data['banner_name'] ?>" target="_new">
-            <img src="/assets/uploads/<?php echo $data['banner_image'] ?>" alt="<?php echo $data['banner_name'] ?>" style="width: auto; margin: 0 auto;">
-        </a>
-    </div>
-    <?php } ?>
 
-    <?php foreach($banner as $data) { ?>
-    <div>
-        <a href="<?php echo $data['banner_link'] ?>" title="<?php echo $data['banner_name'] ?>" target="_new">
-            <img src="/assets/uploads/<?php echo $data['banner_image'] ?>" alt="<?php echo $data['banner_name'] ?>" style="width: auto; margin: 0 auto;">
-        </a>
-    </div>
-    <?php } ?>
-</div> -->
 <?php } ?>
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators" >
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="home-db-carousel1" src="/assets/images/home_backgrand_photo1.jpg" alt="carousel1" height="100%">          
-            <div class="container">
-            <div class="carousel-caption text-start" >
-                <h1>Demo1</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+
+<div id="slider" data-section="home">
+    <div class="owl-carousel owl-carousel-fullwidth">
+            
+            <!-- You may change the background color here. 首頁輪播1 -->
+            <div class="item" style="background-image:url(images/slide_1.jpg)">
+                <div class="container" style="position: relative;">
+                    <div class="row">
+                        <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
+                            <div class="fh5co-owl-text-wrap">
+                                <div class="fh5co-owl-text">
+                                    <h1 class="fh5co-lead to-animate">Water Sport Series</h1>
+                                    <h2 class="fh5co-sub-lead to-animate">Your Only Portable Heating Solution!<br>Turns your ordinary wetsuit into<br>a comfortable HEATED wetsuit.</h2>
+                                    <p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg">READ MORE ...</a></p>
+                                    <!-- ↑彩色BUTTON 底色修改 在 style.css -->
+                                </div>
+                            </div>
+                        </div>                                
+                        <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
+                            <div class="iphone to-animate-2"><img src="images/product-1.png" alt="Thermalution Water Sport Series">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- You may change the background color here. 首頁輪播2 -->
+            <div class="item" style="background-image:url(images/slide_2.jpg)">
+                <div class="container" style="position: relative;">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7">
+                            <div class="fh5co-owl-text-wrap">
+                                <div class="fh5co-owl-text">
+                                    <h1 class="fh5co-lead to-animate">Outdoor Series</h1>
+                                    <h2 class="fh5co-sub-lead to-animate">With the Thermalution Outdoor Series, you will be able to control your own temperature anytime</h2>
+                                    <p class="to-animate-2"><a href="#" class="btn btn-primary2 btn-lg">READ MORE ...</a></p>
+                                    <!-- ↑彩色BUTTON 底色修改 在 style.css -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
+                            <div class="iphone to-animate-2"><img src="images/product-2.png" alt="Thermalution Outdoor Series">
+                            </div>
+                        </div>  
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="carousel-item">
-        <img class="home-db-carousel2" src="/assets/images/home_backgrand_photo2.jpg" alt="carousel2" height="100%">
-            <div class="container">
-            <div class="carousel-caption">
-                <h1>Demo2</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+
+
+            <!-- You may change the background color here. 首頁輪播3 -->
+            <div class="item" style="background-image:url(images/slide_3.jpg)">
+                <div class="container" style="position: relative;">
+                    <div class="row">
+                        <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
+                            <div class="fh5co-owl-text-wrap">
+                                <div class="fh5co-owl-text">
+                                    <h1 class="fh5co-lead to-animate">Thermal Sport Series</h1>
+                                    <h2 class="fh5co-sub-lead to-animate">Warm up before you act! Thermal Sport gives you warmth beyond heating the surface of your body.</h2>
+                                    <p class="to-animate-2"><a href="#" class="btn btn-primary3 btn-lg">READ MORE ...</a></p>
+                                    <!-- ↑彩色BUTTON 底色修改 在 style.css -->
+                                </div>
+                            </div>
+                        </div>                            
+                        <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
+                            <div class="iphone to-animate-2"><img src="images/product-3.png" alt="Thermalution Thermal Sport Series">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-        <img class="home-db-carousel3" src="/assets/images/home_backgrand_photo3.jpg" alt="carousel3" height="100%">
-            <div class="container">
-            <div class="carousel-caption text-end">
-                <h1>Demo3</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-            </div>
-            </div>
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
     </div>
-
-    <style>
-        .carousel-inner
-        .carousel-item {
-            height: 350px;
-            margin-bottom: 50px;
-        }
-        .carousel-caption {
-            position:absolute;right:15%;
-            bottom:1.25rem;left:15%;
-            padding-top:1.25rem;
-            padding-bottom:1.25rem;
-            color:#fff;text-align:center
-        }
-        .carousel-dark 
-        .carousel-control-next-icon,
-        .carousel-dark 
-        .carousel-control-prev-icon {
-        filter:invert(1) grayscale(100)
-        }
-        .carousel-dark 
-        .carousel-indicators [data-bs-target] {
-        background-color:#000
-        }
-        /* .carousel-dark
-        .carousel-caption {
-        color:#000
-        } */
-        /* @-webkit-keyframes spinner-border { */
-        /* to{transform:rotate(360deg)}
-        } */
-        .row {
-        --bs-gutter-x: 5rem;
-        }        
-        .col-lg-4 h2 
-        .bd-placeholder-img {
-            text-align: center;
-            text-emphasis: none;
-            text-decoration: dashed;
-            display: block;
-        }
-    </style>
+</div>
 
 
+<!-- About -->
+<div id="fh5co-about-us" data-section="about">
+    <div class="container">
+        <div class="row row-bottom-padded-lg" id="about-us">
+            <div class="col-md-12 section-heading text-center">
+            <h2 class="to-animate">About us</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 to-animate">
+                        <h3>At Petatech&reg;, We are proud to introduce our own invented brand &quot;Thermulation&reg;&quot;, the best solution for Power Heated Apparel.</h3>
+                    </div>
+                </div>
+            </div>
 
-    <div class="container marketing">
+            <div class="col-md-8 to-animate"><img src="images/img_1.jpg" class="img-responsive img-rounded" alt="About Thermalution"></div>
+            <div class="col-md-4 to-animate">
+                <h2>About Thermalution&reg;</h2>
+                <p style="text-align:justify">Glad with the idea of providing warmth in winter, the founder of Petatech&reg; travels the world to promote the latest products, sending warmth to all corners of the world. A brand that feeds your need with modern technology, and gives warmth to the universe.</p>
+                <h2>Thermalution&reg; Story</h2>
+                <p style="text-align:justify">There is a heart-warming tale about how it all began...</p>
+                <p><a href="#" class="btn btn-primary">LEARN MORE</a></p>
+            </div>
+        </div>
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row" >
-        <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <div class="row" id="team">
+            <div class="col-md-12 section-heading text-center to-animate"><h2>Products Series</h2></div>
+            <div class="col-md-12">
+                <div class="row row-bottom-padded-lg">
+                    <div class="col-md-4 text-center to-animate">
+                        <div class="person"><img src="images/P_Series_Outdoor.jpg" class="img-responsive img-rounded" alt="Outdoor Series">
+                                <h3 class="name">Outdoor Series</h3>
+                            <div class="position">Power Heated Vest</div>
+                                <p>With the Outdoor Series, you will be able to control your own temperature anytime, anywhere with our three-level setting micro controller. </p>
+                                <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                        </div>
+                    </div>
 
-            <h2>Heading</h2>
-            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                    <div class="col-md-4 text-center to-animate">
+                        <div class="person"><img src="images/P_Series_Water.jpg" class="img-responsive img-rounded" alt="Water Sport">
+                            <h3 class="name">Water Sport Series</h3>
+                        <div class="position">Power Heated Undersuit</div>
+                            <p>No matter you are ready to dive into cold water or icy water, under any harsh condition, it always keeps you WARM inside.</p>
+                            <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                        </div>
+                    </div>
 
-            <h2>Heading</h2>
-            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                    <div class="col-md-4 text-center to-animate">
+                        <div class="person"><img src="images/P_Series_Thermal.jpg" class="img-responsive img-rounded" alt="Thermal Sport">
+                            <h3 class="name">Thermal Sport Series</h3>
+                        <div class="position">Power Heated Belt</div>
+                            <p>Thermal Sport gives you warmth beyond heating the surface of your skin. It can WARM up your body from the inside and stimulate your circulation system.</p>
+                            <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                        </div>
+                    </div>
 
-            <h2>Heading</h2>
-            <p>And lastly this, the third column of representative placeholder content.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <hr class="featurette-divider">
+<!-- Products -->
+<div id="fh5co-press" data-section="press">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="single-animate animate-press-1">Products</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
+                        <h3>With the support of our top R&D team, hi-tech machinery, efficient production lines, reliable quality control system and the most friendly customer services. We offer the best designed products at the most reasonable prices.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <div class="row">
+            <div class="col-md-6">
+            <!-- Press Item -->
+                <div class="fh5co-press-item to-animate">
+                    <div class="fh5co-press-img" style="background-image: url(images/img_7.jpg)"></div>
+                    <div class="fh5co-press-text">
+                        <h3 class="h2 fh5co-press-title">Compact Dive Series <span class="fh5co-border"></span></h3>
+                        <p align="justify">Crafted with the same ingenuity that brought you the Thermalution Surf Series; the Thermalution&reg; Compact Dive Series will show you a dive you will never forget....</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
 
-      </div>
+            <div class="col-md-6">
+                <!-- Press Item -->
+                <div class="fh5co-press-item to-animate">
+                    <div class="fh5co-press-img" style="background-image: url(images/img_8.jpg)"></div>
+                    <div class="fh5co-press-text">
+                        <h3 class="h2 fh5co-press-title">Yellow Grade Plus+ <span class="fh5co-border"></span></h3>
+                        <p align="justify">Not only will the Thermalution&reg; Yellow Grade PLUS be your co-pilot, it will also act as your personal pit crew, ensuring you get the best dive, every dive...</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                    </div>
+                </div>
+                <!-- Press Item -->
+            </div>
+				
+            <div class="col-md-6">
+                <!-- Press Item -->
+                <div class="fh5co-press-item to-animate">
+                    <div class="fh5co-press-img" style="background-image: url(images/img_9.jpg);"></div>
+                    <div class="fh5co-press-text">
+                        <h3 class="h2 fh5co-press-title">Heated Vest DV1 <span class="fh5co-border"></span></h3>
+                        <p align="justify">With the Outdoor Heated Vest DV1, you will be able to control your own temperature anytime. You will get the agility you deserve in light-weight garments with the warmth you've always wanted...</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                    </div>
+                </div>
+                <!-- Press Item -->
+            </div>
+
+            <div class="col-md-6">
+                <!-- Press Item -->
+                <div class="fh5co-press-item to-animate">
+                <div class="fh5co-press-img" style="background-image: url(images/img_10.jpg);"></div>
+                    <div class="fh5co-press-text">
+                        <h3 class="h2 fh5co-press-title">Thermal Red Belt <span class="fh5co-border"></span></h3>
+                        <p align="justify">We have combined the common knowledge of applying heat to sore and or injured body parts with our unique blend of thermal sport belts and guards that will relief your pain and aid your injury...</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                    </div>
+                </div>
+                <!-- Press Item -->
+            </div>
+
+        </div>
     </div>
+</div>
 
-    <hr class="featurette-divider">
+<!-- CONTACT US -->
+<div id="fh5co-our-services" data-section="services">
+    <div class="container">
+        <div class="row row-bottom-padded-sm">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">CONTACT US</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 to-animate">
+                    <h3>Welcome to Thermalution® web!<BR>Should you have any questions, please do not hesitate to contact us.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box to-animate">
+                    <!-- 想換 ICON 時 可參照 fonts/icomoon/icomoon/demo.html 了解 ICON 樣式 ↓ ICON 名稱 -->
+                    <div class="icon colored-1"><span><i class="icon-credit-card"></i></span></div>
+                    <h3>Direct Order</h3>
+                    <p><span><i class="icon-caret-right"></i></span> <a href="https://goo.gl/mMpRlb" target="_blank">Direct Order of Product</a><br>
+                    <span><i class="icon-caret-right"></i></span> <a href="https://goo.gl/13brwd" target="_blank">Direct Order of Accessories</a></p>
+                </div>
+                <div class="box to-animate">
+                    <div class="icon colored-4"><span><i class="icon-question"></i></span></div>
+                    <h3>Thermalution Q &amp; A</h3>
+                    <p>For more detailed information please go through our <span><i class="icon-caret-right"></i></span> <a href="#" target="_blank">Q&A page.</a></p>
+                </div>
+            </div>
 
-      </div>
+            <div class="col-md-4">
+                <div class="box to-animate">
+                    <div class="icon colored-2"><span><i class="icon-map-marker"></i></span></div>
+                    <h3>International Distributor</h3>
+                    <p><span><i class="icon-caret-right"></i></span> <a href="https://goo.gl/13brwd" target="_blank">Find your local distributor or dealer.</a></p>
+                </div>
+                <div class="box to-animate">
+                    <div class="icon colored-5"><span><i class="icon-envelope-o"></i></span></div>
+                    <h3>Contact Us</h3>
+                    <p>Your comments is appreciated.<br>
+                    <span><i class="icon-caret-right"></i></span> <a href="https://goo.gl/c4SXiG" target="_blank">mail to us</a><br>
+                    <span><i class="icon-caret-right"></i></span> <a href="tel:+886287519998" target="_blank">+886-2-87519998</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box to-animate">
+                    <div class="icon colored-3"><span><i class="icon-bookmark-o"></i></span></div>
+                    <h3>Warranty &amp; RMA</h3>
+                    <p>Warranty, Registration, and Repair Service.<br>
+                    <span><i class="icon-caret-right"></i></span> <a href="#" target="_blank">Warranty &amp; RMA</a></p>
+                </div>
+                <div class="box to-animate">
+                    <div class="icon colored-6"><span><i class="icon-pencil"></i></span></div>
+                    <h3>Inquiry Center</h3>
+                    <p>If you would like to become a local distributor. <span><i class="icon-caret-right"></i></span> <a href="https://goo.gl/XuYCtn" target="_blank">click here</a></p>
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
 
-    <hr class="featurette-divider">
+<!-- NEWS -->
+<div id="fh5co-features" data-section="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">NEWS</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 to-animate">
+                    <h3>No matter how freezing there. Our warm diving undersuit can enhance your diving trip, make you a gorgeous day.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-8 to-animate"><img src="images/img_News.jpg" class="img-responsive img-rounded" alt="About Thermalution"></div>
+        <div class="col-md-4 to-animate">
+            <h2>DEMA SHOW 2019</h2>
+            <p style="text-align:justify">We take great pleasure to invite you to attend the DEMA Show 2019 on November 13-16 at the Orange County Convention Center, Orlando, Florida, USA !  <a href="https://www.demashow.com/DEMA19/Public/eBooth.aspx?IndexInList=11&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=360355"  target="_blank">Thermalution booth #2543</a>.</p>
+            <h2>Thermalution booth #2543</h2>
+            <p style="text-align:justify">Visit DEMA Show website for the latest show information : <span><i class="icon-caret-right"></i></span> <a href="https://www.demashow.com/DEMA19/Public/content.aspx?ID=12714&sortMenu=103000"  target="_blank">www.demashow.com</a><br><br><strong>THERMALUTION&reg;, your portable heating solution!</strong></p>
+        </div>
+    </div>
+</div>
 
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Feedback -->
+<div id="fh5co-testimonials" data-section="testimonials" style="background-image:url(images/img_feedback_bg.jpg)">		
+    <div class="container">
 
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Consumer Feedback</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>User Reviews of Water Sport Series</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box-testimony to-animate">
+                    <blockquote><span class="quote text-justify"><span><i class="icon-quote-left"></i></span></span>
+                    <p>&ldquo; We ordered and have been using a couple of your heated shirts for our diving ops in the Antarctic program and have really been enjoying them. We have tested out about every type of electrically heated undergarments for our drysuit diving that there are, your system with the under arm batteries has been the simplest, most reliable and best system we have used... &rdquo;</p></blockquote>
+                    <p class="author">Steve Rupp<span class="subtext">Antarctic Support Contract, Leidos</span></p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box-testimony to-animate">
+                    <blockquote><span class="quote text-justify"><span><i class="icon-quote-left"></i></span></span>
+                    <p>&ldquo; Hello,<br>I dive in Northern California in the Pacific Ocean, water temp about F45 to F50 year round. I already have the wireless remote control yellow grade heated vest. It's working fine, very effective.&rdquo;</p></blockquote>
+                    <p class="author">Yvon<span class="subtext">Scubadragons Dive Club</span></p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box-testimony to-animate">
+                    <blockquote><span class="quote text-justify"><span><i class="icon-quote-left"></i></span></span>
+                    <p>&ldquo; As a family we have bought 5 of the Thermalution dive heated shirts and they work quite well. We bought our heated vests from North Carolina, USA on 2015. We bought extra batteries since we often do more than 2 hours per day underwater. We've used them many times in Florida, Fiji and Bonaire. Tomorrow we are taking them to Roatan...&rdquo;</p></blockquote>
+                    <p class="author">Diving Family<span class="subtext">Diving Family</span></p>
+                </div>
+            </div>
+
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 single-animate animate-features-3">
+                    <a href="#" class="btn btn-primary btn-block">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
