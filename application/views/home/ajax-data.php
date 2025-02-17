@@ -11,3 +11,5 @@
 <nav aria-label="Page navigation" style="padding-top: 5px; padding-bottom: 5px;">
     <?php echo $this->ajax_pagination->create_links(); ?>
 </nav>
+
+

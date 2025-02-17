@@ -6,7 +6,7 @@
     <div class="owl-carousel owl-carousel-fullwidth">
             
             <!-- You may change the background color here. 首頁輪播1 -->
-            <div class="item" style="background-image:url(images/slide_1.jpg)">
+            <div class="item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg'); ?>');">
                 <div class="container" style="position: relative;">
                     <div class="row">
                         <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
@@ -20,7 +20,7 @@
                             </div>
                         </div>                                
                         <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
-                            <div class="iphone to-animate-2"><img src="images/product-1.png" alt="Thermalution Water Sport Series">
+                            <div class="iphone to-animate-2"><img src="<?= base_url('assets/images/product-1.png'); ?>" alt="Thermalution Water Sport Series">
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
             </div>
 
             <!-- You may change the background color here. 首頁輪播2 -->
-            <div class="item" style="background-image:url(images/slide_2.jpg)">
+            <div class="item" style="background-image:url('<?= base_url('assets/images/slide_2.jpg'); ?>');">
                 <div class="container" style="position: relative;">
                     <div class="row">
                         <div class="col-md-7 col-sm-7">
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
-                            <div class="iphone to-animate-2"><img src="images/product-2.png" alt="Thermalution Outdoor Series">
+                            <div class="iphone to-animate-2"><img src="<?= base_url('assets/images/product-2.png'); ?>" alt="Thermalution Outdoor Series">
                             </div>
                         </div>  
                     </div>
@@ -51,7 +51,7 @@
 
 
             <!-- You may change the background color here. 首頁輪播3 -->
-            <div class="item" style="background-image:url(images/slide_3.jpg)">
+            <div class="item" style="background-image:url('<?= base_url('assets/images/slide_3.jpg'); ?>');">
                 <div class="container" style="position: relative;">
                     <div class="row">
                         <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
@@ -65,7 +65,7 @@
                             </div>
                         </div>                            
                         <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
-                            <div class="iphone to-animate-2"><img src="images/product-3.png" alt="Thermalution Thermal Sport Series">
+                            <div class="iphone to-animate-2"><img src="<?= base_url('assets/images/product-3.png'); ?>" alt="Thermalution Thermal Sport Series">
                             </div>
                         </div>
                     </div>
