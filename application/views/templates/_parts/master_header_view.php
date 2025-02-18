@@ -43,6 +43,9 @@
     <!-- Custom JS -->
     <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 
+    <!-- owl-carousel 2 -->
+    
+
 </head>
 
 <body>
