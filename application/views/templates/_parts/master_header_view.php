@@ -40,6 +40,9 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
+    <script src="<?php echo base_url('assets/js/styleSwitcher.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.waypoints.min.js'); ?>"></script>
+
     <!-- Custom JS -->
     <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 

@@ -88,7 +88,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8 to-animate"><img src="images/img_1.jpg" class="img-responsive img-rounded" alt="About Thermalution"></div>
+            <div class="col-md-8 to-animate"><img src="<?= base_url('assets/images/img_1.jpg'); ?>" class="img-responsive img-rounded" alt="About Thermalution"></div>
             <div class="col-md-4 to-animate">
                 <h2>About Thermalution&reg;</h2>
                 <p style="text-align:justify">Glad with the idea of providing warmth in winter, the founder of Petatech&reg; travels the world to promote the latest products, sending warmth to all corners of the world. A brand that feeds your need with modern technology, and gives warmth to the universe.</p>
@@ -103,7 +103,7 @@
             <div class="col-md-12">
                 <div class="row row-bottom-padded-lg">
                     <div class="col-md-4 text-center to-animate">
-                        <div class="person"><img src="images/P_Series_Outdoor.jpg" class="img-responsive img-rounded" alt="Outdoor Series">
+                        <div class="person"><img src="<?= base_url('assets/images/P_Series_Outdoor.jpg'); ?>" class="img-responsive img-rounded" alt="Outdoor Series">
                                 <h3 class="name">Outdoor Series</h3>
                             <div class="position">Power Heated Vest</div>
                                 <p>With the Outdoor Series, you will be able to control your own temperature anytime, anywhere with our three-level setting micro controller. </p>
@@ -112,7 +112,7 @@
                     </div>
 
                     <div class="col-md-4 text-center to-animate">
-                        <div class="person"><img src="images/P_Series_Water.jpg" class="img-responsive img-rounded" alt="Water Sport">
+                        <div class="person"><img src="<?= base_url('assets/images/P_Series_Water.jpg'); ?>" class="img-responsive img-rounded" alt="Water Sport">
                             <h3 class="name">Water Sport Series</h3>
                         <div class="position">Power Heated Undersuit</div>
                             <p>No matter you are ready to dive into cold water or icy water, under any harsh condition, it always keeps you WARM inside.</p>
@@ -121,7 +121,7 @@
                     </div>
 
                     <div class="col-md-4 text-center to-animate">
-                        <div class="person"><img src="images/P_Series_Thermal.jpg" class="img-responsive img-rounded" alt="Thermal Sport">
+                        <div class="person"><img src="<?= base_url('assets/images/P_Series_Thermal.jpg'); ?>" class="img-responsive img-rounded" alt="Thermal Sport">
                             <h3 class="name">Thermal Sport Series</h3>
                         <div class="position">Power Heated Belt</div>
                             <p>Thermal Sport gives you warmth beyond heating the surface of your skin. It can WARM up your body from the inside and stimulate your circulation system.</p>
@@ -153,7 +153,7 @@
             <div class="col-md-6">
             <!-- Press Item -->
                 <div class="fh5co-press-item to-animate">
-                    <div class="fh5co-press-img" style="background-image: url(images/img_7.jpg)"></div>
+                    <div class="fh5co-press-img" style="background-image: url('<?= base_url('assets/images/img_7.jpg'); ?>')"></div>
                     <div class="fh5co-press-text">
                         <h3 class="h2 fh5co-press-title">Compact Dive Series <span class="fh5co-border"></span></h3>
                         <p align="justify">Crafted with the same ingenuity that brought you the Thermalution Surf Series; the Thermalution&reg; Compact Dive Series will show you a dive you will never forget....</p>
@@ -165,7 +165,7 @@
             <div class="col-md-6">
                 <!-- Press Item -->
                 <div class="fh5co-press-item to-animate">
-                    <div class="fh5co-press-img" style="background-image: url(images/img_8.jpg)"></div>
+                    <div class="fh5co-press-img" style="background-image: url('<?= base_url('assets/images/img_8.jpg'); ?>'); ?>'); ?>')"></div>
                     <div class="fh5co-press-text">
                         <h3 class="h2 fh5co-press-title">Yellow Grade Plus+ <span class="fh5co-border"></span></h3>
                         <p align="justify">Not only will the Thermalution&reg; Yellow Grade PLUS be your co-pilot, it will also act as your personal pit crew, ensuring you get the best dive, every dive...</p>
@@ -178,7 +178,7 @@
             <div class="col-md-6">
                 <!-- Press Item -->
                 <div class="fh5co-press-item to-animate">
-                    <div class="fh5co-press-img" style="background-image: url(images/img_9.jpg);"></div>
+                    <div class="fh5co-press-img" style="background-image: url('<?= base_url('assets/images/img_9.jpg'); ?>');"></div>
                     <div class="fh5co-press-text">
                         <h3 class="h2 fh5co-press-title">Heated Vest DV1 <span class="fh5co-border"></span></h3>
                         <p align="justify">With the Outdoor Heated Vest DV1, you will be able to control your own temperature anytime. You will get the agility you deserve in light-weight garments with the warmth you've always wanted...</p>
@@ -191,7 +191,7 @@
             <div class="col-md-6">
                 <!-- Press Item -->
                 <div class="fh5co-press-item to-animate">
-                <div class="fh5co-press-img" style="background-image: url(images/img_10.jpg);"></div>
+                <div class="fh5co-press-img" style="background-image: url('<?= base_url('assets/images/img_10.jpg'); ?>');"></div>
                     <div class="fh5co-press-text">
                         <h3 class="h2 fh5co-press-title">Thermal Red Belt <span class="fh5co-border"></span></h3>
                         <p align="justify">We have combined the common knowledge of applying heat to sore and or injured body parts with our unique blend of thermal sport belts and guards that will relief your pain and aid your injury...</p>
@@ -282,7 +282,7 @@
             </div>
         </div>
 
-        <div class="col-md-8 to-animate"><img src="images/img_News.jpg" class="img-responsive img-rounded" alt="About Thermalution"></div>
+        <div class="col-md-8 to-animate"><img src="<?= base_url('assets/images/img_News.jpg'); ?>" class="img-responsive img-rounded" alt="About Thermalution"></div>
         <div class="col-md-4 to-animate">
             <h2>DEMA SHOW 2019</h2>
             <p style="text-align:justify">We take great pleasure to invite you to attend the DEMA Show 2019 on November 13-16 at the Orange County Convention Center, Orlando, Florida, USA !  <a href="https://www.demashow.com/DEMA19/Public/eBooth.aspx?IndexInList=11&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=360355"  target="_blank">Thermalution booth #2543</a>.</p>
@@ -293,7 +293,7 @@
 </div>
 
 <!-- Feedback -->
-<div id="fh5co-testimonials" data-section="testimonials" style="background-image:url(images/img_feedback_bg.jpg)">		
+<div id="fh5co-testimonials" data-section="testimonials" style="background-image:url('<?= base_url('assets/images/img_feedback_bg.jpg'); ?>');">		
     <div class="container">
 
         <div class="row">
