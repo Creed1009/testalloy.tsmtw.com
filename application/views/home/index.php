@@ -2,6 +2,50 @@
 
 <?php } ?>
 
+
+<!-- <style>
+    #slider .owl-carousel {
+        display: flex; 
+        width: 100%;
+    }
+    #slider .owl-carousel .item {
+        min-height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+    }
+    #slider .owl-carousel .item h1 {
+        font-size: 3em;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    #slider .owl-carousel .item h2 {
+        font-size: 1.5em;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    #slider .owl-carousel .item .fh5co-owl-text-wrap {
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border-radius: 5px;
+    }
+    .owl-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+</style> -->
+
+
+
+
 <div id="slider" data-section="home">
     <div class="owl-carousel owl-carousel-fullwidth">
             
@@ -80,21 +124,20 @@
     <div class="container">
         <div class="row row-bottom-padded-lg" id="about-us">
             <div class="col-md-12 section-heading text-center">
-            <h2 class="to-animate">About us</h2>
+            <h2 class="to-animate fadeInUp animated">About us</h2>
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 to-animate">
+                    <div class="col-md-12 col-md-offset-2 to-animate">
                         <h3>At Petatech&reg;, We are proud to introduce our own invented brand &quot;Thermulation&reg;&quot;, the best solution for Power Heated Apparel.</h3>
                     </div>
+                    <div class="col-md-8 to-animate"><img src="<?= base_url('assets/images/img_1.jpg'); ?>" class="img-responsive img-rounded w-100" alt="About Thermalution"></div>
+                    <div class="col-md-4 to-animate">
+                        <h2>About Thermalution&reg;</h2>
+                        <p style="text-align:justify">Glad with the idea of providing warmth in winter, the founder of Petatech&reg; travels the world to promote the latest products, sending warmth to all corners of the world. A brand that feeds your need with modern technology, and gives warmth to the universe.</p>
+                        <h2>Thermalution&reg; Story</h2>
+                        <p style="text-align:justify">There is a heart-warming tale about how it all began...</p>
+                        <p><a href="#" class="btn btn-primary">LEARN MORE</a></p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-md-8 to-animate"><img src="<?= base_url('assets/images/img_1.jpg'); ?>" class="img-responsive img-rounded" alt="About Thermalution"></div>
-            <div class="col-md-4 to-animate">
-                <h2>About Thermalution&reg;</h2>
-                <p style="text-align:justify">Glad with the idea of providing warmth in winter, the founder of Petatech&reg; travels the world to promote the latest products, sending warmth to all corners of the world. A brand that feeds your need with modern technology, and gives warmth to the universe.</p>
-                <h2>Thermalution&reg; Story</h2>
-                <p style="text-align:justify">There is a heart-warming tale about how it all began...</p>
-                <p><a href="#" class="btn btn-primary">LEARN MORE</a></p>
             </div>
         </div>
 

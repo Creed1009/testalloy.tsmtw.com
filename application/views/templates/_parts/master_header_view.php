@@ -34,20 +34,26 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
+    <!-- css -->
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/animate.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/turquoise.css'); ?>">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/custom.css'); ?>">
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <script src="<?php echo base_url('assets/js/styleSwitcher.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/jquery.waypoints.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/styleSwitcher.js'); ?>"></script>
 
     <!-- Custom JS -->
     <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 
     <!-- owl-carousel 2 -->
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </head>
 

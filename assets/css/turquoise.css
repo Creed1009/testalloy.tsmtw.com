@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 .section-heading h2 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
   color: #444;
   text-transform: uppercase;
@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 25px;
   height: 3px;
   color: #00b8a9;

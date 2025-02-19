@@ -7,11 +7,11 @@ $(document).ready(function(){
         autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
-        item: 3,
+        items: 3,
         responsive: {
             0: { items: 1},
-            768: { items: 3},
-            1024: { items: 3}
+            768: { items: 1},
+            1024: { items: 1}
         }
     });
 });
