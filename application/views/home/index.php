@@ -3,49 +3,8 @@
 <?php } ?>
 
 
-<!-- <style>
-    #slider .owl-carousel {
-        display: flex; 
-        width: 100%;
-    }
-    #slider .owl-carousel .item {
-        min-height: 100vh; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-size: cover;
-        background-position: center center;
-    }
-    #slider .owl-carousel .item h1 {
-        font-size: 3em;
-        color: #fff;
-        font-weight: 700;
-        margin-bottom: 0;
-    }
-    #slider .owl-carousel .item h2 {
-        font-size: 1.5em;
-        color: #fff;
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
-    #slider .owl-carousel .item .fh5co-owl-text-wrap {
-        padding: 30px;
-        background: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        border-radius: 5px;
-    }
-    .owl-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-</style> -->
-
-
-
-
+<!-- Header -->
 <div id="slider" data-section="home">
     <div class="owl-carousel owl-carousel-fullwidth">
             

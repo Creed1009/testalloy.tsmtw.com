@@ -53,6 +53,25 @@
     });
 </script>
 
+<script>
+    $(".owl-carousel").owlCarousel({
+    loop: true, // 循環播放
+    margin: 10, // 外距 10px
+    nav: true, // 顯示點點
+    responsive: {
+        0: {
+        items: 1 
+        },
+        600: {
+        items: 1 
+        },
+        1000: {
+        items: 1 
+        }
+    }
+});
+</script>
+
 <script src="<?= base_url('assets/js/main.js') ?>"></script>
 
 

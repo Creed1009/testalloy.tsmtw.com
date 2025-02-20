@@ -35,12 +35,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- css -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/animate.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/turquoise.css'); ?>">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/custom.css'); ?>">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/turquoise.css?v=1.0">
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -51,13 +48,21 @@
     <!-- Custom JS -->
     <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 
-    <!-- owl-carousel 2 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- owl.carousel -->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+    <script src="/assets/js/owl.carousel.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    
+    
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
+
+
 
 
 <header role="banner" id="fh5co-header">
@@ -65,7 +70,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="<?= base_url(); ?>">
-            <img src="<?= base_url('assets/images/logo.png'); ?>" width="155" height="47" alt="Thermalution">
+          <img src="<?= base_url('assets/images/logo.png'); ?>" width="155" height="47" alt="Thermalution">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
