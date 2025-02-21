@@ -28,8 +28,9 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= base_url('assets/favicon.ico'); ?>">
 
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -39,24 +40,16 @@
     <link rel="stylesheet" href="/assets/css/animate.css">
     <link rel="stylesheet" href="/assets/css/turquoise.css?v=1.0">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-    <script src="<?php echo base_url('assets/js/jquery.waypoints.min.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/styleSwitcher.js'); ?>"></script>
-
     <!-- Custom JS -->
     <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 
     <!-- owl.carousel -->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
     <script src="/assets/js/owl.carousel.js"></script>
     <script src="/assets/js/owl.carousel.min.js"></script>
     
-    
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -67,7 +60,6 @@
 
 <header role="banner" id="fh5co-header">
   <div class="container">
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="<?= base_url(); ?>">
           <img src="<?= base_url('assets/images/logo.png'); ?>" width="155" height="47" alt="Thermalution">
@@ -77,14 +69,14 @@
         </button>
 
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-          <li><a href="#" data-nav-section="about"><span>About</span></a></li>
-          <li><a href="#" data-nav-section="press"><span>Product</span></a></li>
-          <li><a href="#" data-nav-section="services"><span>Contact</span></a></li>
-          <li><a href="#" data-nav-section="features"><span>News</span></a></li>
-          <li><a href="#" data-nav-section="testimonials"><span>Feedback</span></a></li>
-          <li><a href="#"><span>Login</span></a></li>
+        <ul class="nav navbar-nav ms-auto">
+          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="home"><span>Home</span></a></li>
+          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="about"><span>About</span></a></li>
+          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="press"><span>Product</span></a></li>
+          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="services"><span>Contact</span></a></li>
+          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="features"><span>News</span></a></li>
+          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="testimonials"><span>Feedback</span></a></li>
+          <li class="nave-item"><a class="nav-link" href="#"><span>Login</span></a></li>
         </ul>
       </div>
     </nav>
@@ -94,6 +86,11 @@
 
 <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/assets/js/jquery.waypoints.min.js"></script>
+<script src="/assets/js/styleSwitcher.js"></script>
 
 </body>
 </html>
