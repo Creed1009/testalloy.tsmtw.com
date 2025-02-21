@@ -28,28 +28,33 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= base_url('assets/favicon.ico'); ?>">
 
-    <!-- Bootstrap 5 css-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    
+    <!-- jQuery -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.style.switcher.js"></script>
+    <script src="/assets/js/jquery.waypoints.min.js"></script>
 
+    <!-- Bootstrap 5 css-->
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
+    
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- css -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/animate.css">
-    <link rel="stylesheet" href="/assets/css/turquoise.css?v=1.0">
-
-    <!-- Custom JS -->
-    <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
+    <link rel="stylesheet" href="/assets/css/turquoise.css?v=1.0"> -->
 
     <!-- owl.carousel -->
-    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <!-- <link rel="stylesheet" href="/assets/css/owl.carousel.css">
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css"> -->
     <script src="/assets/js/owl.carousel.js"></script>
     <script src="/assets/js/owl.carousel.min.js"></script>
-    
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -84,13 +89,6 @@
   </div>
 </header>
 
-<!-- Bootstrap 5 JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="/assets/js/jquery.waypoints.min.js"></script>
-<script src="/assets/js/styleSwitcher.js"></script>
 
 </body>
 </html>

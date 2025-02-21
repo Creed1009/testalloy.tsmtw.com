@@ -38,8 +38,16 @@
 
 
 <script>
+    $(document).ready(function() {
+    $(".style-switcher").styleSwitcher();
+    // 或者
+    $(element).styleSwitcher();
+});
+</script>
+
+<script>
     $(function() {
-        $('#colour-variation ul').styleSwitcher({
+        $('#color-variation ul').styleSwitcher({
             defaultThemeId: 'theme-switch',
             hasPreview: false,
             cookie: {
@@ -49,7 +57,7 @@
         })
     });
     $('.option-toggle').click(function() {
-        $('#colour-variations').toggleClass('sleep');
+        $('#color-variations').toggleClass('sleep');
     });
 </script>
 

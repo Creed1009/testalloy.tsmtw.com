@@ -6,10 +6,10 @@
 
 <!-- Header -->
 <div id="slider" data-section="home">
-    <div class="owl-carousel owl-carousel-fullwidth">
+    <div class="owl-carousel owl-carousel">
             
             <!-- You may change the background color here. 首頁輪播1 -->
-            <div class="item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg'); ?>');">
+            <div class="slide-item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg');?>'); ">
                 <div class="container" style="position: relative;">
                     <div class="row">
                         <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
