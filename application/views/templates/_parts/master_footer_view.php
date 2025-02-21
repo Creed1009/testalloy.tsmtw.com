@@ -11,7 +11,7 @@
 <footer id="footer" role="contentinfo">
     <div class="container">
         <div class="row row-bottom-padded-sm">
-            < class="col-md-12">
+            <div class="col-md-12">
                 <p class="copyright text-center">Copyright&copy;
                     <script language = 'JavaScript' type="text/javascript">type="text/javascript"
                     now = new Date
@@ -36,14 +36,6 @@
     </div>
 </footer>
 
-
-<script>
-    $(document).ready(function() {
-    $(".style-switcher").styleSwitcher();
-    // 或者
-    $(element).styleSwitcher();
-});
-</script>
 
 <script>
     $(function() {
