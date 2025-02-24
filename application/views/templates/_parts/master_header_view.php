@@ -11,6 +11,7 @@
     <!-- Meta -->
     <meta name="description" content="<?= get_setting_general('meta_description'); ?>">
     <meta name="keywords" content="<?= get_setting_general('meta_keywords'); ?>">
+    <meta name="author" content="www.thermalution.com">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:locale" content="zh_TW">
@@ -28,35 +29,32 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= base_url('assets/favicon.ico'); ?>">
 
-    <!-- jQuery -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/jquery.style.switcher.js"></script>
-    <script src="/assets/js/jquery.waypoints.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css">
 
-    <!-- Bootstrap 5 css-->
+    <!-- CSS -->
+    <!-- Bootstrap 5 CSS -->
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
-    
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
-    <!-- css -->
-    <link rel="stylesheet" href="/assets/css/main.css?v=0.1">
-    <!-- <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Animate.css -->
     <link rel="stylesheet" href="/assets/css/animate.css">
-    <link rel="stylesheet" href="/assets/css/turquoise.css?v=1.0"> -->
-
-    <!-- owl.carousel -->
-    <!-- <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <!-- Icomoon Icon Fonts -->
+    <link rel="stylesheet" href="/assets/css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="/assets/css/simple-line-icons.css">
+    <!-- Owl Carousel -->
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css"> -->
-    <script src="/assets/js/owl.carousel.js"></script>
-    <script src="/assets/js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+    <!-- Main & Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
 
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Modernizr JS -->
+    <script src="/assets/js/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+
 
 <body>
 

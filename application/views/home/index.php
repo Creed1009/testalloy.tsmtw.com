@@ -3,13 +3,12 @@
 <?php } ?>
 
 
-
 <!-- Header -->
 <div id="slider" data-section="home">
-    <div class="owl-carousel owl-carousel">
+    <div class="owl-carousel-fullwidth">
             
             <!-- You may change the background color here. 首頁輪播1 -->
-            <div class="slide-item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg');?>'); ">
+            <div class="item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg');?>'); ">
                 <div class="container" style="position: relative;">
                     <div class="row">
                         <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
@@ -166,7 +165,7 @@
 
             <div class="col-md-6">
                 <!-- Press Item -->
-                <div class="fh5co-press-item to-animate">
+                <div class="fh5co-press-item to-animate" style="height: 315px;">
                     <div class="fh5co-press-img" style="background-image: url('<?= base_url('assets/images/img_8.jpg'); ?>'); ?>'); ?>')"></div>
                     <div class="fh5co-press-text">
                         <h3 class="h2 fh5co-press-title">Yellow Grade Plus+ <span class="fh5co-border"></span></h3>

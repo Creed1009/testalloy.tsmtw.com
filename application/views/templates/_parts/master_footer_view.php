@@ -1,12 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');?>
 
-<!-- Footer -->
-<!-- <footer>
-    <div class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p class="m-0 text-center text-black">© Copyright 2024 han-test</p>
-    </div>
-</footer> -->
 
 <footer id="footer" role="contentinfo">
     <div class="container">
@@ -37,47 +30,37 @@
 </footer>
 
 
+<!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+<!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+    <script src="js/jquery.style.switcher.js"></script>
 <script>
-    $(function() {
-        $('#color-variation ul').styleSwitcher({
+    $(function(){
+        $('#colour-variations ul').styleSwitcher({
             defaultThemeId: 'theme-switch',
             hasPreview: false,
             cookie: {
-                expires: 30,
-                lsManagingLoad: true
+            expires: 30,
+            isManagingLoad: true
             }
-        })
-    });
-    $('.option-toggle').click(function() {
-        $('#color-variations').toggleClass('sleep');
+        });	
+        $('.option-toggle').click(function() {
+            $('#colour-variations').toggleClass('sleep');
+        });
     });
 </script>
+<!-- End demo purposes only -->
 
-<script>
-    $(".owl-carousel").owlCarousel({
-    loop: true, // 循環播放
-    margin: 10, // 外距 10px
-    nav: true, // 顯示點點
-    responsive: {
-        0: {
-        items: 1 
-        },
-        600: {
-        items: 1 
-        },
-        1000: {
-        items: 1 
-        }
-    }
-});
-</script>
-
-<script src="<?= base_url('assets/js/main.js') ?>"></script>
-
-
-
-<!-- Bootstrap core JavaScript -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-
+<!-- Main JS (Do not remove) -->
+    <script src="js/main.js"></script>
 
 </html>
