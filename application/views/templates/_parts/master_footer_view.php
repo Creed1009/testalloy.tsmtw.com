@@ -31,36 +31,57 @@
 
 
 <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
 <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
 <!-- Owl Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
 
 <!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-    <script src="js/jquery.style.switcher.js"></script>
-<script>
-    $(function(){
-        $('#colour-variations ul').styleSwitcher({
-            defaultThemeId: 'theme-switch',
-            hasPreview: false,
-            cookie: {
-            expires: 30,
-            isManagingLoad: true
-            }
-        });	
-        $('.option-toggle').click(function() {
-            $('#colour-variations').toggleClass('sleep');
+    <script src="assets/js/jquery.style.switcher.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                autoWidth: false,
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 1 },
+                    1000: { items: 1 }
+                }
+            });
         });
-    });
-</script>
+    </script>
+
+    <script>
+        $(function(){
+            $('#colour-variations ul').styleSwitcher({
+                defaultThemeId: 'theme-switch',
+                hasPreview: false,
+                cookie: {
+                expires: 30,
+                isManagingLoad: true
+                }
+            });	
+            $('.option-toggle').click(function() {
+                $('#colour-variations').toggleClass('sleep');
+            });
+        });
+    </script>
 <!-- End demo purposes only -->
 
 <!-- Main JS (Do not remove) -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </html>

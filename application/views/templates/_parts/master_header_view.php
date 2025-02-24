@@ -58,35 +58,31 @@
 
 <body>
 
-
-
-
 <header role="banner" id="fh5co-header">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="<?= base_url(); ?>">
-          <img src="<?= base_url('assets/images/logo.png'); ?>" width="155" height="47" alt="Thermalution">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
+    <!-- <div class="row"> -->
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+          <!-- Mobile Toggle Menu Button -->
+          <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+          <a class="navbar-brand" href="index.html"><img src="<?= base_url('assets/images/logo.png'); ?>" width="155" height="47" alt="Thermalution"></a>
+      </div>
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav ms-auto">
-          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="home"><span>Home</span></a></li>
-          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="about"><span>About</span></a></li>
-          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="press"><span>Product</span></a></li>
-          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="services"><span>Contact</span></a></li>
-          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="features"><span>News</span></a></li>
-          <li class="nave-item"><a class="nav-link" href="#" data-nav-section="testimonials"><span>Feedback</span></a></li>
-          <li class="nave-item"><a class="nav-link" href="#"><span>Login</span></a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+          <li><a href="#" data-nav-section="about"><span>About</span></a></li>
+          <li><a href="#" data-nav-section="press"><span>Product</span></a></li>
+          <li><a href="#" data-nav-section="services"><span>Contact</span></a></li>
+          <li><a href="#" data-nav-section="features"><span>News</span></a></li>
+          <li><a href="#" data-nav-section="testimonials"><span>Feedback</span></a></li>
+          <li><a href="#"><span>Search</span></a></li>
         </ul>
       </div>
     </nav>
 
   </div>
 </header>
-
 
 </body>
 </html>

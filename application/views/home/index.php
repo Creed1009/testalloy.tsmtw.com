@@ -3,12 +3,13 @@
 <?php } ?>
 
 
+
 <!-- Header -->
 <div id="slider" data-section="home">
-    <div class="owl-carousel-fullwidth">
+    <div class="owl-carousel owl-carousel-fullwidth">
             
             <!-- You may change the background color here. 首頁輪播1 -->
-            <div class="item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg');?>'); ">
+            <div class="item" style="background-image: url('<?= base_url('assets/images/slide_1.jpg');?>');" >
                 <div class="container" style="position: relative;">
                     <div class="row">
                         <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
@@ -82,16 +83,16 @@
     <div class="container">
         <div class="row row-bottom-padded-lg" id="about-us">
             <div class="col-md-12 section-heading text-center">
-            <h2 class="to-animate fadeInUp animated">About us</h2>
+            <h2 class="to-animate">About us</h2>
                 <div class="row">
-                    <div class="col-md-12 col-md-offset-2 to-animate">
+                    <div class="col-md-8 col-md-offset-2 to-animate">
                         <h3>At Petatech&reg;, We are proud to introduce our own invented brand &quot;Thermulation&reg;&quot;, the best solution for Power Heated Apparel.</h3>
                     </div>
                     <div class="col-md-8 to-animate"><img src="<?= base_url('assets/images/img_1.jpg'); ?>" class="img-responsive img-rounded w-100" alt="About Thermalution"></div>
                     <div class="col-md-4 to-animate">
-                        <h2>About Thermalution&reg;</h2>
+                        <h2 style="font-size: 30px;">About Thermalution&reg;</h2>
                         <p style="text-align:justify">Glad with the idea of providing warmth in winter, the founder of Petatech&reg; travels the world to promote the latest products, sending warmth to all corners of the world. A brand that feeds your need with modern technology, and gives warmth to the universe.</p>
-                        <h2>Thermalution&reg; Story</h2>
+                        <h2 style="font-size: 30px;">Thermalution&reg; Story</h2>
                         <p style="text-align:justify">There is a heart-warming tale about how it all began...</p>
                         <p><a href="#" class="btn btn-primary">LEARN MORE</a></p>
                     </div>
@@ -153,7 +154,7 @@
         <div class="row">
             <div class="col-md-6">
             <!-- Press Item -->
-                <div class="fh5co-press-item to-animate">
+                <div class="fh5co-press-item to-animate" style="height: 315px;">
                     <div class="fh5co-press-img" style="background-image: url('<?= base_url('assets/images/img_7.jpg'); ?>')"></div>
                     <div class="fh5co-press-text">
                         <h3 class="h2 fh5co-press-title">Compact Dive Series <span class="fh5co-border"></span></h3>
@@ -345,6 +346,6 @@
 </div>
 
 
-<script src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
+<!-- <script src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/owl.carousel.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/custom.js'); ?>"></script>
+<script src="<?= base_url('assets/js/custom.js'); ?>"></script> -->
