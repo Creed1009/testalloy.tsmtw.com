@@ -982,6 +982,21 @@ ICON 樣式 可參照 fonts/icomoon/icomoon/demo.html 了解  檔安則是 icomo
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  font-size: 0; 
+}
+
+.owl-prev::before {
+  content: "\f104"; 
+  font-family: "FontAwesome";
+  font-size: 24px;
+  color: #fff;
+}
+
+.owl-next::before {
+  content: "\f105"; 
+  font-family: "FontAwesome";
+  font-size: 24px;
+  color: #fff;
 }
 .owl-carousel .owl-controls .owl-nav .owl-next i:before,
 .owl-carousel .owl-controls .owl-nav .owl-prev i:before {

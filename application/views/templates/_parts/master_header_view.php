@@ -46,6 +46,8 @@
     <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
     <!-- Main & Custom CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- Modernizr JS -->
     <script src="/assets/js/modernizr-2.6.2.min.js"></script>

@@ -50,6 +50,10 @@
                 loop: true,
                 margin: 0,
                 nav: true,
+                // navText: [
+                //     "<i class='fa fa-chevron-left'></i>",
+                //     "<i class='fa fa-chevron-right'></i>"
+                // ],
                 dots: true,
                 autoplay: true,
                 autoplayTimeout: 5000,

@@ -1,15 +1,13 @@
 <style>
-    .jumbotron {
+.jumbotron {
     margin-bottom: 0;
     padding: 0;
     position: relative;
 }
-
 .display-1 {
     font-weight: bold;
     letter-spacing: 2px;
 }
-
 .display-4 {
     letter-spacing: 1px;
 }
