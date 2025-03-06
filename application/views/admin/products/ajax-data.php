@@ -26,10 +26,10 @@
   <?php if(!empty($products)): foreach ($products as $data): ?>
     <tr>
       <!-- <td class="text-center"><input type="checkbox" name="product_id[]" value="<?php echo $data['product_id'] ?>"></td> -->
-      <td><?php echo get_product_category_front($data['product_id']) ?></td>
-      <td><?php echo $data['product_title'] ?></td>
+      <td><?php echo get_product_category_front($data['product_category_id']) ?></td>
+      <td><?php echo $data['product_id'] ?></td>
       <td><?php echo $data['product_sort'] ?></td>
-      <td><?php echo $data['product_click_count'] ?></td>
+      <td><?php echo $data['product_description'] ?></td>
       <td>
         <a href="/admin/products/edit/<?php echo $data['product_id'] ?>" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
         <?php if($data['product_status'] == '1'){ ?>

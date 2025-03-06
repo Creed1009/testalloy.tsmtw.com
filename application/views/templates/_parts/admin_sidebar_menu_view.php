@@ -16,7 +16,7 @@
     <?php if($this->ion_auth->in_group('admin') || $this->ion_auth->in_group('president')){ ?>
     <li <?php if ($current == "products" || $current == "users") {echo "class='active'";}?>>
       <a href="#" class="dropdown-toggle">
-        <i class="fa fa-user"></i>
+        <i class="fa fa-file"></i>
         <span>商品管理</span>
         <b class="arrow fa fa-angle-right"></b>
       </a>
@@ -33,17 +33,17 @@
     <?php if($this->ion_auth->in_group('admin') || $this->ion_auth->in_group('president')){ ?>
       <li <?php if ($current == "about" || $current == "users") {echo "active";}?>>
         <a href="/admin/pages" >
-          <i class="fa fa-user"></i>
-          <span>關於我們</span>
+          <i class="fa fa-comment"></i>
+          <span>詢價表單</span>
         </a>
       </li>
     <?php } ?>
 
     <?php if($this->ion_auth->in_group('admin') || $this->ion_auth->in_group('post_manager')){ ?>
-    <li class="<?php if (($current == "posts")) {echo "class='active'";}?>">
-      <a href="/admin/posts">
-        <i class="fa fa-clipboard"></i>
-        <span>文章管理</span>
+    <li class="<?php if (($current == "contact")) {echo "class='active'";}?>">
+      <a href="/admin/contact">
+        <i class="fa fa-phone"></i>
+        <span>聯絡表單</span>
       </a>
     </li>
     <?php } ?>
@@ -51,7 +51,7 @@
     <?php if($this->ion_auth->in_group('admin') || $this->ion_auth->in_group('president')){ ?>
     <li <?php if ($current == "auth" || $current == "users") {echo "class='active'";}?>>
       <a href="#" class="dropdown-toggle">
-        <i class="fa fa-user"></i>
+        <i class="fa fa-key"></i>
         <span>帳號管理</span>
         <b class="arrow fa fa-angle-right"></b>
       </a>

@@ -1,38 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * @property products_model $products_model
- * @property ajax_pagination_admin $ajax_pagination_admin
- * @property perPage $perPage
- * @property mysql_model $mysql_model
- * @property ion_auth $ion_auth
- * @property upload $upload
- * @property image_lib $image_lib
- * @property session $session
- * @property db $db
- * @property input $input
- * @property form_validation $form_validation
- * @property render $render
- * @property resizeImage $resizeImage
- * @property server $server
- * @property load $load
- * @property category $category
- * @property top_category $top_category
- * @property sub_category $sub_category
- * @property product_category_parent $product_category_parent
- * @property product_category_name $product_category_name
- * @property product_category_sort $product_category_sort
- * @property creator_id $creator_id
- * @property created_at $created_at
- * @property post_title $post_title
- * @property post_category $post_category
- * @property post_status $post_status
- * @property post_id $post_id
- * @property getSubCategory $getSubCategory
- * @property getTopCategory $getTopCategory
- */
-
-
 class Products extends Admin_Controller {
 
     public function __construct()
@@ -55,7 +22,7 @@ class Products extends Admin_Controller {
         $config['per_page']    = $this->perPage;
         $config['link_func']   = 'searchFilter';
         $this->ajax_pagination_admin->initialize($config);
-        //get the products data
+        //get the product data
         $this->data['category'] = $this->mysql_model->_select('product_category');
         $this->data['products'] = $this->products_model->getRows(array('limit'=>$this->perPage));
 
@@ -106,8 +73,8 @@ class Products extends Admin_Controller {
         //set start and limit
         $conditions['start'] = $offset;
         $conditions['limit'] = $this->perPage;
-        //get products data
-        $this->data['products'] = $this->products_model->getRows($conditions);
+        //get product data
+        $this->data['product'] = $this->products_model->getRows($conditions);
         //load the view
         $this->load->view('admin/products/ajax-data', $this->data, false);
     }
@@ -147,7 +114,7 @@ class Products extends Admin_Controller {
     public function insert()
     {
         $data = array(
-            'product_title'  => $this->input->post('product_title'),
+            'product_id'  => $this->input->post('product_id'),
             'product_category' => implode(',', $this->input->post('product_category')),
             'product_content' => $this->input->post('product_content'),
             'product_sort' => $this->input->post('product_sort'),
@@ -250,7 +217,7 @@ class Products extends Admin_Controller {
             'product_status' => '1',
         );
         $this->db->where('product_id', $id);
-        $this->db->update('products', $data);
+        $this->db->update('product', $data);
         $this->session->set_flashdata('message', '商品上架成功');
         redirect($_SERVER['HTTP_REFERER']);
     }

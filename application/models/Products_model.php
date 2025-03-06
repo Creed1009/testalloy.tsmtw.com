@@ -8,10 +8,10 @@ class Products_model extends CI_Model {
 
     function getRowsCount($params = array()){
         $this->db->select('*');
-        $this->db->from('products');
+        $this->db->from('product');
         //filter data by searched keywords
         if(!empty($params['search']['keywords'])){
-            $this->db->like('product_title',$params['search']['keywords']);
+            $this->db->like('product_id',$params['search']['keywords']);
         }
         if(!empty($params['search']['category'])){
             $this->db->where('product_category',$params['search']['category']);
@@ -40,10 +40,10 @@ class Products_model extends CI_Model {
 
     function getRows($params = array()){
         $this->db->select('*');
-        $this->db->from('products');
+        $this->db->from('product');
         //filter data by searched keywords
         if(!empty($params['search']['keywords'])){
-            $this->db->like('product_title',$params['search']['keywords']);
+            $this->db->like('product_id',$params['search']['keywords']);
         }
         if(!empty($params['search']['category'])){
             $this->db->where('product_category',$params['search']['category']);
@@ -130,7 +130,7 @@ class Products_model extends CI_Model {
     public function getTotalRows()
 
     {
-        return $this->db->count_all('products');
+        return $this->db->count_all('product');
     }
 
         public function getLimitedRows($limit = null, $offset = null)
@@ -138,7 +138,7 @@ class Products_model extends CI_Model {
         if($limit && $offset){
             $this->db->limit($limit, $offset);
         }
-        $query = $this->db->get('products');
+        $query = $this->db->get('product');
         return $query->result();
     }
 }
