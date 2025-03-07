@@ -1,12 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * @property Posts_model $posts_model
- * @property Home_model $home_model
- * @property Manufacturers_model $manufacturers_model
- * @property Ajax_pagination $ajax_pagination
- * @property Input $input
- */
 
 class Home extends Public_Controller {
 
@@ -21,14 +14,27 @@ class Home extends Public_Controller {
 	public function index()
 	{
         $this->data['page_title'] = '首頁';
-        // 添加调试代码
+        
         if (!method_exists($this->posts_model, 'getPosts')) {
         log_message('error', 'Method getPosts does not exist in posts_model');
         }
-        $data = array();
-        //total rows count
-        $totalRec = count($this->posts_model->getPosts());
-        //pagination configuration
+
+        
+        if (!method_exists($this->posts_model, 'getPosts')) {
+        log_message('error', 'Method getPosts does not exist in posts_model');
+        $totalRec = 0; 
+        } else {
+        $posts = $this->posts_model->getPosts();
+        
+        // 確保 $posts 是陣列
+        if (!is_array($posts)) {
+            log_message('error', 'getPosts() did not return an array');
+            $posts = [];
+        }
+
+        $totalRec = count($posts);
+        }
+
         $config['target']      = '#datatable';
         $config['base_url']    = base_url().'home/ajaxData';
         $config['total_rows']  = $totalRec;

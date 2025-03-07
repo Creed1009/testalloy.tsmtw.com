@@ -8,12 +8,12 @@ class Home_model extends CI_Model {
 
     public function GetBanner()
     {
-        $this->db->where('banner_on_the_shelf <=', date('Y-m-d H:i:s'));
-        $this->db->where('banner_off_the_shelf >=', date('Y-m-d H:i:s'));
-        $this->db->where('banner_status', '1');
-        $this->db->order_by('banner_sort','asc');
-        $query = $this->db->get('banner');
-        return ($query->num_rows() > 0)?$query->result_array():false;
+        // $this->db->where('banner_on_the_shelf <=', date('Y-m-d H:i:s'));
+        // $this->db->where('banner_off_the_shelf >=', date('Y-m-d H:i:s'));
+        // $this->db->where('banner_status', '1');
+        // $this->db->order_by('banner_sort','asc');
+        // $query = $this->db->get('banner');
+        // return ($query->num_rows() > 0)?$query->result_array():false;
     }
 
     function get_post_category() {

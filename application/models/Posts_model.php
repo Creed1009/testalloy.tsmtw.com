@@ -68,10 +68,10 @@ class Posts_model extends CI_Model {
         // } else {
         //     $this->db->order_by('post_id','desc');
         // }
-        $this->db->where('post_on_the_shelf <=', date('Y-m-d H:i:s'));
-        $this->db->where('post_off_the_shelf >=', date('Y-m-d H:i:s'));
+        // $this->db->where('post_on_the_shelf <=', date('Y-m-d H:i:s'));
+        // $this->db->where('post_off_the_shelf >=', date('Y-m-d H:i:s'));
         $this->db->where('post_status', '1');
-        $this->db->order_by('post_topping','desc');
+        // $this->db->order_by('post_topping','desc');
         $this->db->order_by('post_id','desc');
         //set start and limit
         if(array_key_exists("start",$params) && array_key_exists("limit",$params)){
